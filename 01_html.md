@@ -24,7 +24,7 @@
 - 在title标签里面的Document称为内容(content)
 - 标签是分级的, head, body标签在html标签里面, meta, title在head标签里面, 相对而言, 把外层标签称为父标签(parent), 内层标签称为子标签(children), 而且这些标签的关系是分级的, 让我来画一个标签树
 
-![image-20241219105155840](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219105155840.png)
+![](assets/images/label_tree.png)
 
 (如果你想知道画这种流程图用的什么软件, 这个是draw.io, 最初我用它来画UML图, 实际上它能做的是远不止那些, 访问app.diagrams.net即可使用在线版draw.io, 如果你觉得有用, 给它github添上一星吧)
 
@@ -36,7 +36,7 @@
 
 ### 必要的插件
 
-![image-20241219105836648](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219105836648.png)
+![](./assets/images/02.png)
 
 以上三个插件, 
 
@@ -44,13 +44,13 @@
 
 - Auto Rename Tag, 当你修改开标签, 也会自动修改闭标签
 
-![image-20241219110511582](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219110511582.png)
+![](./assets/images/03.png)
 
 - live Server: 会将编写的html文件运行到浏览器上
 
 **使用方法**
 
-![image-20241219110648006](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219110648006.png)
+![](./assets/images/04.png)
 
 按ctrl + shift + p, 进入vscode的命令行模式, 输入live会找到**Live Server: Open with Live Server**
 
@@ -60,7 +60,7 @@
 
 **在弹出的浏览器里查看html页面**
 
-![image-20241219111448153](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219111448153.png)
+![](./assets/images/05.png)
 
 干净的像一张白纸, 因为我们还没有写任何东西
 
@@ -70,19 +70,19 @@
 
 当创建一个新的html文件时什么都没有, 随便输入ht
 
-![image-20241219112851458](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219112851458.png)
+![](./assets/images/06.png)
 
 vscode会跳出来补全项, 选择**html:5**并回车就出现了
 
-![image-20241219113004757](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113004757.png)
+![](./assets/images/07.png)
 
 (PS: 可以格式化一下, 输入ctrl + shift + p, 然后输入for就能看到format选项)
 
-![image-20241219113136477](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113136477.png)
+![](./assets/images/08.png)
 
 **这样就很漂亮**
 
-![image-20241219113216052](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113216052.png)
+![](./assets/images/09.png)
 
 **能出现自动补全一个html模板的原因在于vscode有一个内置的功能叫Snippets, 这个能配置不同语言的代码模板, 用好这个, 可以稍微减低开发难度**
 
@@ -90,13 +90,13 @@ vscode会跳出来补全项, 选择**html:5**并回车就出现了
 
 1. 仍然输入ctrl + shift + p
 
-![image-20241219113530186](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113530186.png)
+![](./assets/images/10.png)
 
-2. 选择Snippets: Configure Snippets后, 需要选择语言, 我们输入html后选择它![image-20241219113716124](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113716124.png)
+2. 选择Snippets: Configure Snippets后, 需要选择语言, 我们输入html后选择它![](./assets/images/11.png)
 
 3. 里面空空如也, 我们可以写一个自己的html模板
 
-![image-20241219114307613](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219114307613.png)
+![](./assets/images/12.png)
 
 > **"prefix"**: !html	 当我们输入!html时, 触发这个模板的补全
 >
@@ -108,7 +108,7 @@ vscode会跳出来补全项, 选择**html:5**并回车就出现了
 
 4. 使用这个模板, 输入!html
 
-![image-20241219114702844](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219114702844.png)
+![](./assets/images/13.png)
 
 就成功的使用了这个Snippet
 
