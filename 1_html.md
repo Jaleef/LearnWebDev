@@ -63,3 +63,57 @@
 ![image-20241219111448153](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219111448153.png)
 
 干净的像一张白纸, 因为我们还没有写任何东西
+
+
+
+### 必要的操作方法
+
+当创建一个新的html文件时什么都没有, 随便输入ht
+
+![image-20241219112851458](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219112851458.png)
+
+vscode会跳出来补全项, 选择**html:5**并回车就出现了
+
+![image-20241219113004757](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113004757.png)
+
+(PS: 可以格式化一下, 输入ctrl + shift + p, 然后输入for就能看到format选项)
+
+![image-20241219113136477](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113136477.png)
+
+**这样就很漂亮**
+
+![image-20241219113216052](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113216052.png)
+
+**能出现自动补全一个html模板的原因在于vscode有一个内置的功能叫Snippets, 这个能配置不同语言的代码模板, 用好这个, 可以稍微减低开发难度**
+
+#### 让我们来探究一下, 
+
+1. 仍然输入ctrl + shift + p
+
+![image-20241219113530186](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113530186.png)
+
+2. 选择Snippets: Configure Snippets后, 需要选择语言, 我们输入html后选择它![image-20241219113716124](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219113716124.png)
+
+3. 里面空空如也, 我们可以写一个自己的html模板
+
+![image-20241219114307613](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219114307613.png)
+
+> **"prefix"**: !html	 当我们输入!html时, 触发这个模板的补全
+>
+> **"body"**: ...			 是补全的内容
+>
+> **"description"**: ... 是描述
+
+**手写一个snippet有一点其他的考虑, 具体请查询gpt**
+
+4. 使用这个模板, 输入!html
+
+![image-20241219114702844](C:\Users\jeffp\AppData\Roaming\Typora\typora-user-images\image-20241219114702844.png)
+
+就成功的使用了这个Snippet
+
+**对于html:5这个补全, 我觉得应该是vscode内置的补全, 我们应该无法修改, 因此就没找到**
+
+##### 以上, 如果学会写Snippets, 就可以给很多语言配上这样的模板, 而vscode也会像ide一样初始化工程了
+
+#### PS: 我会在这个教程的后面教vscode的使用技巧
